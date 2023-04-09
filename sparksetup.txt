@@ -1,0 +1,4 @@
+$ ./sbin/start-master.sh
+$ ./sbin/start-worker.sh spark://MSI.localdomain:7077
+$ export SPARK_IDENT_STRING=worker2
+$ ./sbin/start-worker.sh spark://MSI.localdomain:7077
